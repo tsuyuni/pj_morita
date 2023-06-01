@@ -1,7 +1,7 @@
-const Main = () => {
+const Home = () => {
 	return(
 		<span>サンプルのページです</span>
 	)
 }
 
-export default Main
+export default Home
