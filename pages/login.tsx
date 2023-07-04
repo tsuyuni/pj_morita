@@ -1,5 +1,5 @@
-import styles from "../styles/login.module.css"
-import Form from "../components/Form";
+import styles from "../styles/pages/login.module.css";
+import Form from "../components/organisms/Form";
 
 const Login = () => {
   return (

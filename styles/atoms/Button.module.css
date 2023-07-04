@@ -3,7 +3,8 @@
   height: 36px;
   border-radius: 9999px;
   border: none;
-  background-color: orange;
+  background-color: #E87C18;
   color: white;
   cursor: pointer;
+  font-family: "YuMincho";
 }

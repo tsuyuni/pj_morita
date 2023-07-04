@@ -1,5 +1,5 @@
 import { MutableRefObject } from "react";
-import styles from "../styles/Button.module.css";
+import styles from "../../styles/atoms/Button.module.css";
 
 type ButtonProps = {
   label: string,
