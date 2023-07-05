@@ -26,12 +26,9 @@ const EmailForm = (props: EmailFormProps): JSX.Element => {
   }
 
   return (
-    <div className={styles.block}>
-      <h1 className={styles.block_heading} >ログイン</h1>
-      <div className={styles.block_inner}>
-        <Input type="text" placeholder="メールアドレス" onChange={(e) => onChangeEmail(e)}/>
-        <Button label="次へ" onClick={checkEmail}/>
-      </div>
+  <div className={styles.block_inner}>
+      <Input type="text" placeholder="メールアドレス" onChange={(e: ChangeEvent<HTMLInputElement>) => onChangeEmail(e)}/>
+      <Button label="次へ" onClick={checkEmail}/>
     </div>
   );
 }

@@ -19,10 +19,11 @@ const Form = (): JSX.Element => {
   }
 
   return (
-    <>
+    <div className={styles.block}>
+      <h1 className={styles.block_heading}>ログイン</h1>
       {loginStep == LoginStep.email && <EmailForm proceedToNextStep={proceedToNextStep} />}
       {loginStep == LoginStep.id && <IdForm />}
-    </>
+    </div>
   );
 }
 
