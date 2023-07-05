@@ -1,6 +1,12 @@
 import styles from "../../styles/atoms/Input.module.css"
 
-const Input = (props: any) => {
+type InputProps = {
+  type: "text" | "password",
+  placeholder: string,
+  onChange: any
+}
+
+const Input = (props: InputProps) => {
   const {type, placeholder, onChange} = props;
 
   return (

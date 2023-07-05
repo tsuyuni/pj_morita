@@ -1,10 +1,12 @@
 .button {
-  width: 120px;
-  height: 36px;
+  width: 150px;
+  height: 45px;
   border-radius: 9999px;
   border: none;
   background-color: #E87C18;
   color: white;
   cursor: pointer;
   font-family: "YuMincho";
+  font-size: 1.2rem;
+  font-weight: 400;
 }
